@@ -3,30 +3,65 @@
 }
 
 /* Entire Page */
-.body{
+body{
+  Margin: 5px;
+  box-shadow: 1px 1px 1px black
+}
+
+/* navigation and Introduction */
+.header{
+  box-shadow: 1px 1px 1px green;
+  margin-bottom: 10px;
+}
+
+/* contains titles and content and puts them into the same row */
+.new-section{
+  box-shadow: 1px 1px 1px blue;
   display: flex;
 }
 
-/* Navigation and Introduction */
-.header{
+/* titles for main content displayed left of content*/
+.title{
+  box-shadow: 1px 1px 1px red;
+  flex: 1;
+  text-align: right;
 
 }
 
-/* Main content */
-.section{
+/*content to right of titles*/
+.content{
+  box-shadow: 1px 1px 1px yellow;
+  flex: 3;
+}
 
+.section-row{
+    box-shadow: 1px 1px 1px orange;
+  display: flex;
+}
+
+.section-column{
+  box-shadow: 1px 1px 1px blue;
+  flex: 2;
 }
 
 /* About section */
 .footer{
-  
+  display: flex;
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
-  header h1 a {
-    /* this will be applied on any screen smaller than 980px */
-    color: tomato;
+.contact{
+  flex: 1;
+}
+
+.contact-content{
+  flex: 3;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND LARGER */
+@media screen and (min-width: 769px) {
+  header h1 {
+    /* this will be applied on any screen greater than 980px */
+    font-size: 50px;
   }
 }
 
@@ -34,7 +69,7 @@
 @media screen and (max-width: 768px) {
   header h1 {
     /* this will be applied on any screen between 768px and 575px */
-    font-size: 60px;
+    font-size: 40px;
   }
 }
 
@@ -42,6 +77,6 @@
 @media screen and (max-width: 575px) {
   header h1 {
     /* this will be applied on any screen smaller than 575px */
-    font-size: 40px;
+    font-size: 30px;
   }
 }

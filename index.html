@@ -5,21 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!--Stylesheets-->
+     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body class="body">
+  <body>
     <header class="header">
       <h1>
         Portfolio - Raymond Cerney
       </h1>
     </header>
+    
+    <!--About Me section-->
+    <div class="new-section">
+      <!--Title class adds a section to the left 1/4 of the container-->
+      <div class="title">About Me:</div>
+      <!--Content class is displayed on the right 3/4 of the container-->
+      <div class="content">About Me Information</div>
+    </div>
 
-    <section class="section">
-      <div>Hello</div>
-    </section>
-
-    <footer class="footer">
-      <div>Hello</div>
+    <div class="new-section work">
+      <div class="title">Title</div>
+    <!--Contains 2 containers: section, and footer; displayed to the right 3/4 column-->
+      <div class="content">
+          <div class="main-project">Main Project</div>
+          <div class="section-row">
+            <div class="section-column">Row 1 Column 1</div>
+            <div class="section-column">Row 1 Column 2</div>
+          </div>
+          <div class="section-row">
+            <div class="section-column">Row 2 Column 1</div>
+            <div class="section-column">Row 2 Column 2</div>
+          </div>
+      </div>
+    </div>
+    
+    <footer class="new-section foot">
+      <div class="title">Contact Info:</div>
+      <div class="content">Contact Content</div>
     </footer>
+    
+    <!--Script-->
+    <script src="./assets/scripts/script.js"></script>
+
   </body>
 </html>
