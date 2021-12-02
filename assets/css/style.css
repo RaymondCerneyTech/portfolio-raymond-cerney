@@ -1,136 +1,161 @@
-@-ms-viewport {
-  width: device-width;
+@viewport {
+	width: device-width;
 }
-* {box-sizing: border-box;}
+
+* {
+	box-sizing: border-box;
+}
 
 /* Entire Page */
-body{
-  min-height: 100vh;
-  box-shadow: 1px 1px 1px black;
-  background-color: #364f85;
-  display: flex;
-  flex-direction: column;
+body {
+	height: 100vh;
+	background-color: #364f85;
+	display: flex;
 }
 
-main{
-  min-height: 100vh;
-padding: 0 10px;
-  margin: 0px auto;
-    background-color: #62bada;
-  border: 4px solid #262626;
+main {
+	display: flex;
+	height: 100vh;
+
+	margin: auto;
+	background-color: #62bada;
+	flex-direction: column;
 }
 
 /* navigation and Introduction */
-.header-content{
-  height: 100%;
-  width: 100%;
-  box-shadow: 1px 1px 1px rgb(2, 2, 2);
-  margin-bottom: 10px;
-  display: flex;
-  
+.header-content {
+	height: 150px;
+	margin-bottom: 10px;
 }
 
-.header-one{
-  min-height: 5vh;
-  width: 100%;
-  flex-direction: row;
-  background-color:aqua;
-  font-size: 1.55vw;
-  display: flex;
+.head {
+	height: 50px;
+	flex-direction: row;
+	display: flex;
 }
-.header-two{
-  min-height: 5vh;
-  width: 100%;
-  flex-direction: row;
-  background-color:green;
-  display: flex;
+
+.header-one {
+	background-color: aqua;
+	font-size: 1.55vw;
 }
-.header-three{
-  min-height: 5vh;
-  width: 100%;
-  flex-direction: row;
-  background-color:red;
-  display: flex;
+
+.header-two {
+	background-color: green;
+}
+.header-three {
+	background-color: red;
 }
 
 /* contains titles and content and puts them into the same row */
-.new-section{
-  box-shadow: 1px 1px 1px blue;
-  display: flex;
+.new-section {
+	display: flex;
+	margin-left: 15px;
 }
 
-.about-info{
-  font-size: 12px;
+.about-info {
+	margin-top: 10px;
+	font-size: 12px;
 }
+
 /* titles for main content displayed left of content*/
-.title{
-  box-shadow: 1px 1px 1px red;
-  flex: 1;
-  text-align: right;
+.title {
+	border-right: solid #364f85;
 
+	text-align: right;
+	font-size: 40px;
+	margin: 10px 0 0 0;
+	padding-right: 10px;
+	flex-direction: column;
 }
 
 /*content to right of titles*/
-.content{
-  box-shadow: 1px 1px 1px yellow;
-  flex: 3;
+.content {
+	display: flex;
+	flex-direction: column;
+	flex: 3;
+	margin-left: 15px;
+	max-width: 700px;
 }
 
-.section-row{
-  box-shadow: 1px 1px 1px orange;
-  display: flex;
+.main-project-link {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
-.section-column{
-  box-shadow: 1px 1px 1px blue;
-  flex: 2;
+.main-project-link:hover {
+	opacity: 0.8;
 }
 
-/* About section */
-.footer{
-  display: flex;
+.section-row {
+	display: flex;
+	max-width: 700px;
+	margin-bottom: 5px;
 }
 
-.contact{
-  flex: 1;
+.section-column {
+	height: 150px;
+	background-color: blue;
+	flex: 2;
 }
 
-.contact-content{
-  flex: 3;
+.right-column {
+	margin-left: 5px;
+}
+
+.contact {
+	display: flex;
+	margin-top: 10px;
+	background-color: green;
+	height: 70px;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+
+.foot {
+	width: 700px;
+}
+
+.contact-content {
+	display: flex;
+	flex: 3;
+	background-color: white;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND LARGER */
 @media screen and (min-width: 769px) {
-  main {
-  width:60%;
-  }
+	main {
+		width: 1080px;
+	}
 
-  header h1 {
-    /* this will be applied on any screen greater than 980px */
-    font-size: 25px;
-  }
+	header h1 {
+		/* this will be applied on any screen greater than 980px */
+		font-size: 25px;
+	}
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
- main {
-  width:80%;
-  }
+	main {
+		width: 480px;
+	}
 
-  header h1 {
-    /* this will be applied on any screen between 768px and 575px */
-    font-size: 20px;
-  }
+	header h1 {
+		/* this will be applied on any screen between 768px and 575px */
+		font-size: 20px;
+	}
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 480px) {
-   main {
-  width:100%;
-  }
+	main {
+		width: 100%;
+	}
 
-  header h1 {
-    /* this will be applied on any screen smaller than 575px */
-    font-size: 15px;
-  }
+	header h1 {
+		/* this will be applied on any screen smaller than 575px */
+		font-size: 15px;
+	}
 }
