@@ -12,14 +12,15 @@ Images linked to my projects
 ### Contact:
 LinkedIn and contact information
 
-### Built With
+## Additional Info -
+### Technologies Used:
 HTML & CSS
 
-## Website
+### Website:
 https://raymondcerneytech.github.io/portfolio-raymond-cerney/
 
-## Preview
+### Preview:
 ToDo
 
-## Contribution
-Made by **Raymond Cerney**
+### Created By:
+**Raymond Cerney**
