@@ -10,23 +10,18 @@ html {
 	font-family: sans-serif;
 }
 
-html {
-	background-color: #364f85;
-}
-
 body {
-	
-	margin: auto;
 	flex-direction: column;
-	
+	background-color: #62bada;
 }
 
 main {
 	margin: auto;
 	width: 80%;
-	background-color: #62bada;
-	padding-top: 10px;
-	box-shadow: 5px 5px 5px black;
+}
+
+img {
+	width: 100%;
 }
 
 /* navigation and Introduction */
@@ -45,6 +40,9 @@ main {
 	background-color: aqua;
 	font-size: larger;
 }
+.header-name {
+	padding-left: 10px;
+}
 
 .header-two {
 	background-color: green;
@@ -57,9 +55,7 @@ main {
 /* contains titles and content and puts them into the same row */
 .new-section {
 	display: flex;
-	margin-top: 10px;
-	padding-right: 5%;
-	padding-left:  5%;
+	margin: 20px auto;
 }
 
 /* titles for main content displayed left of content*/
@@ -69,7 +65,7 @@ main {
 	font-size: larger;
 	padding-right: 10px;
 	flex-direction: column;
-	width: 200px;
+	width: 10%;
 }
 
 .about-info {
@@ -78,10 +74,11 @@ main {
 
 /*content to right of titles*/
 .content {
-	display: flex;
-	flex-direction: column;
-	flex: 3;
 	margin-left: 10px;
+	width: 90%;
+}
+img{
+border-radius: 5px;
 }
 
 .project-link {
@@ -92,24 +89,18 @@ main {
 	opacity: 0.8;
 }
 
-.project-two-img{
-	max-width:100%;
-}
-
-
 .section-row {
 	display: flex;
-	margin-bottom: 10px;
-	margin-left: 10px;
+	width: 100%;
+	margin-top: 10px;
 }
 
 .section-column {
-	height: 150px;
-	background-color: blue;
 	flex: 2;
 }
 
 .right-column {
+	flex-direction: column;
 	margin-left: 10px;
 }
 
@@ -117,10 +108,6 @@ main {
 	display: flex;
 	background-color: green;
 	height: 70px;
-}
-img {
-	width: 100%;
-	height: auto;
 }
 
 .contact-content {
@@ -132,6 +119,5 @@ img {
 @media screen and (max-width: 1440px) {
 	main {
 		width: 65%;
-
 	}
 }
