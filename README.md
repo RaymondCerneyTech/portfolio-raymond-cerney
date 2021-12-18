@@ -6,7 +6,7 @@ My professional portfolio, designed with many thanks to the University of Minnes
 ### About:
 Brief description of credentials and experience
 
-### Work:
+### Projects:
 Images linked to my projects
 
 ### Contact:
