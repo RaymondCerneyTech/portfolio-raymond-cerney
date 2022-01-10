@@ -1,4 +1,4 @@
-`# Raymond Cerney - Portfolio
+# Raymond Cerney - Portfolio
 
 My professional portfolio, designed with many thanks to the University of Minnesota, Twin Cities coding bootcamp
 
