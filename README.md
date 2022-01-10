@@ -1,4 +1,4 @@
-# Raymond Cerney - Portfolio
+`# Raymond Cerney - Portfolio
 
 My professional portfolio, designed with many thanks to the University of Minnesota, Twin Cities coding bootcamp
 
@@ -20,7 +20,7 @@ HTML & CSS
 https://raymondcerneytech.github.io/portfolio-raymond-cerney/
 
 ### Preview:
-ToDo
+![Picture of Raymond Cerney's Portfolio](./assets/images/Portfolio-Preview.png)
 
 ### Created By:
 **Raymond Cerney**

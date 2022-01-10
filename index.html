@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,96 +10,155 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
   </head>
+
   <body>
 
     <header class="header-content">
-      <div class="head header-one">
+      <div class="header-top">
         <h1 class="header-name">
           Raymond Cerney
         </h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="#about">About Me</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="./assets/resume/Web Development Resume.docx" download="Web Development Resume.docx"
+                target="_blank">Download Resume</a>
+            </li>
+          </ul>
+        </nav>
       </div>
       <div class="header-bottom">
-        <div class="bottom-head header-two"><div class="h-2-text">Master</div></div>
-        <div class="bottom-head header-three"><div class="h-3-text">Mentor</div></div>
-        <div class="bottom-head header-four"><div class="h-4-text"></div>Unify</div>
-    </div>
+        <div class="bottom-head header-two">
+          <div class="h-2-text">Master</div>
+        </div>
+        <div class="bottom-head header-three">
+          <div class="h-3-text">Mentor</div>
+        </div>
+        <div class="bottom-head header-four">
+          <div class="h-4-text"></div>Unify
+        </div>
+      </div>
     </header>
-    
+
     <main>
-    <!--About Me section-->
-    <div class="new-section">
-      <!--Title class adds a section to the left 1/4 of the container-->
-      <div class="title">About</div>
-      <!--Content class is displayed on the right 3/4 of the container-->
-      <div class="content about-info">I'm Ray, an ever-aspiring full stack (backend favored) web developer, 
-          and I welcome you to my portfolio page. Your time spent here is appreciated. 
-        <br/><br/> I completed a Bachelor's degree in Computer Science and full stack web development 
-          bootcamp from the University of Minnesota. 
-        <br/><br/> I worked for the better part of 3 years as a software tester at Lifetouch Photography where 
-          I tested code (obviously) and took every opportunity I could to interact with code.
-      </div>
-    </div>
+      <!--About Me section-->
+      <div class="new-section">
+        <!--Title class adds a section to the left 1/4 of the container-->
+        <div class="title" id="about">About</div>
+        <!--Content class is displayed on the right 3/4 of the container-->
+        <div class="about-info">Welcome! I'm Ray, an aspiring full stack developer and software engineer.
 
-    <!--Work section-->
-    <div class="new-section">
-      <div class="title">Projects</div>
-    <!--Contains 2 containers: section, and footer; displayed to the right 3/4 column-->
-      <div class="content">
-        <div class="main-project">
-          <a title="main-project-title"class="project-link project-one" href="https://ahmed-sajjad111.github.io/Munchies-and-Movies/">
-            <img class="main-project-img" src="./assets/images/Movies-and-Munchies-700.png" alt="Movies and Munchies Image">
+          <br /><br /> I have a bachelor's in Computer Science and will be completing a full stack web development
+          bootcamp in February; both from The University of Minnesota.
+
+          <br /><br /> I was a manual software tester for nearly 3 years at Lifetouch Photography, testing both
+          field-facing and finance department web apps.
+          <br /> When companies started going remote due to covid, my employer laid off all of their manual testers,
+          which was the perfect reason for me to continue my education.
+
+          <br /><br /> The satisfaction received by engineering and developing automated solutions to people's problems
+          is the reason I'm seeking a career in computer science.
+        </div>
+      </div>
+
+      <!--Projects section-->
+      <div class="new-section">
+        <div class="title" id="projects">Projects</div>
+
+        <!--Contains all project's content-->
+        <div class="content">
+          <a title="main-project-title" class="project-link"
+            href="https://ahmed-sajjad111.github.io/Munchies-and-Movies/">
+            <img src="./assets/images/Movies-and-Munchies-700.png"
+              alt="Movies and Munchies Image">
           </a>
-        </div>
-        <div class="section-row ">
-          <div class="section-column left-column"> 
-            <a title="project-two-title"class="project-link project-two" href="https://cbc-my-book.herokuapp.com/">
-              <img class="project-two-img" src="./assets/images/MyBook.png" alt="MyBook Site Image">
-            </a>
-            </div>
-          <div class="section-column right-column">
-            <a title="project-three-title"class="project-link project-three" href="">
-              <img class="project-three-img" src="./assets/images/Project-Three.png" alt="Project Three Image">
-            </a>
-          </div>
-        </div>
-        <div class="section-row">
-          <div class="section-column left-column">
-            <a title="project-four-title"class="project-link project-four" href="">
-              <img class="project-four-img" src="./assets/images/Project-Four.png" alt="Project Four Image">
-            </a>
-          </div>
-          <div class="section-column right-column">
-            <a title="project-five-title"class="project-link project-five" href="">
-              <img class="project-five-img" src="./assets/images/Project-Five.png" alt="Project Five Image">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!--Contact section-->
-    <div class="new-section foot">
-      <div class="title">Contact
-      </div>
-      <div class="content contact">
-        <div>Email: 
-          <span class="footer-link">cerne004@gmail.com</span>
-        </div>
-        <div>GitHub:
-          <span class="footer-link"> <a href="https://github.com/RaymondCerneyTech">https://github.com/RaymondCerneyTech</a></span
-            ></div>
-        <div>LinkedIn: 
-          <span class="footer-link"><a href="https://www.linkedin.com/in/raymondcerney/">https://www.linkedin.com/in/raymondcerney/</a></span>
-        </div>
-      </div>
-    </div>
-  </main>
-  
-    <!--Script-->
-    <script src="./assets/scripts/script.js"></script>
+          <div class="section-row">
+            <a title="project-two-title" class="projectgit -link" href="https://cbc-my-book.herokuapp.com/">
+              <img src="./assets/images/MyBook.png" alt="MyBook Site Image">
+            </a>
+            <a title="project-three-title" class="project-link" href="">
+              <img class="right-column" src="./assets/images/Project-Three.png" alt="Project Three Image">
+            </a>
+          </div>
 
+          <div class="section-row">
+            <a title="project-four-title" class="project-link" href="">
+              <img src="./assets/images/Project-Four.png" alt="Project Four Image">
+            </a>
+            <a title="project-five-title" class="project-link" href="">
+              <img class="right-column" src="./assets/images/Project-Five.png" alt="Project Five Image">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!--Contact section-->
+      <div class="new-section foot">
+        <!-- Footer Title -->
+        <div class="title" id="contact">Contact</div>
+
+
+        <!--Displayed when media < tablet-->
+        <div class="footer-small">
+          <span class="footer-link">
+            <a href="cerne004@gmail.com"> Email </a>
+          </span>
+          <!--GitHub-->
+          <span class="footer-link">
+            <a href="https://github.com/RaymondCerneyTech">
+              GitHub
+            </a>
+          </span>
+          <!--LinkedIn-->
+          <span class="footer-link">
+            <a href="https://www.linkedin.com/in/raymondcerney/">
+              LinkedIn
+            </a>
+          </span>
+        </div>
+
+        <!--Displayed when media > tablet-->
+        <div class="footer-large">
+          <div>
+            Email:
+            <span class="footer-link">
+              cerne004@gmail.com
+            </span>
+          </div>
+          <!--GitHub-->
+          <div>
+            GitHub:
+            <span class="footer-link">
+              <a href="https://github.com/RaymondCerneyTech">
+                https://github.com/RaymondCerneyTech
+              </a>
+            </span>
+          </div>
+          <!--LinkedIn-->
+          <div>
+            LinkedIn:
+            <span class="footer-link">
+              <a href="https://www.linkedin.com/in/raymondcerney/">
+                https://www.linkedin.com/in/raymondcerney/
+              </a>
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </main>
   </body>
+
 </html>
