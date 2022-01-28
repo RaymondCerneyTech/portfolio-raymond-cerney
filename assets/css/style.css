@@ -114,7 +114,7 @@ main {
 
 /*content to right of titles*/
 .content {
-		padding: 5px 10px 5px;
+		padding: 0;
 		width: 90%;
 }
 
@@ -126,9 +126,9 @@ img {
 	opacity: 0.8;
 }
 
-.section-row {
-	width: 100%;
-	display: flex;
+.secondary-projects {
+	width: 49.7%;
+	display: inline-block;
 	margin-top: 10px;
 }
 
@@ -139,11 +139,6 @@ img {
 .right-column {
 	margin-left: 10px;
 		width: 100%;
-}
-
-.foot{
-	
-
 }
 
 .footer-large {
